@@ -1,0 +1,21 @@
+cd ..
+mkdir Question8
+cd Question8
+
+nano bg_move.sh
+chmod +x bg_move.sh
+ls -l
+
+mkdir testdir
+
+echo "File One" > testdir/file1.txt
+echo "File Two" > testdir/file2.txt
+echo "File Three" > testdir/file3.txt
+
+ls testdir
+
+./bg_move.sh testdir
+
+ls testdir
+ls testdir/backup
+

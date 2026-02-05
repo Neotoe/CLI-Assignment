@@ -1,0 +1,35 @@
+Question 8: Command Explanation
+
+1. cd ..
+Returns to main assignment directory.
+
+2. mkdir Question8
+Creates directory for Question 8 files.
+
+3. cd Question8
+Moves into working directory.
+
+4. nano bg_move.sh
+Creates and edits shell script.
+
+5. chmod +x bg_move.sh
+Provides executable permission.
+
+6. ls -l
+Verifies script permission.
+
+7. mkdir testdir
+Creates directory for testing file movement.
+
+8. echo command
+Creates sample files in directory.
+
+9. ls testdir
+Displays directory contents.
+
+10. ./bg_move.sh testdir
+Executes script to move files in background.
+
+11. ls testdir and ls testdir/backup
+Verifies file movement to backup directory.
+
