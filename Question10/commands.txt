@@ -1,0 +1,12 @@
+cd ..
+mkdir Question10
+cd Question10
+
+nano signal_demo.c
+
+gcc signal_demo.c -o signal_demo
+
+ls -l
+
+./signal_demo
+

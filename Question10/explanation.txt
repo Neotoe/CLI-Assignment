@@ -1,0 +1,23 @@
+Question 10: Command Explanation
+
+1. cd ..
+Returns to main assignment directory.
+
+2. mkdir Question10
+Creates directory for Question 10 files.
+
+3. cd Question10
+Moves into working directory.
+
+4. nano signal_demo.c
+Creates and edits C program for signal handling.
+
+5. gcc signal_demo.c -o signal_demo
+Compiles C program and creates executable file.
+
+6. ls -l
+Verifies executable file creation.
+
+7. ./signal_demo
+Runs program demonstrating signal handling.
+
