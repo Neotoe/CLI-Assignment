@@ -1,0 +1,32 @@
+Question 5: Command Explanation
+
+1. cd ..
+Returns to main assignment directory.
+
+2. mkdir Question5
+Creates directory for Question 5.
+
+3. cd Question5
+Moves into working directory.
+
+4. nano sync.sh
+Creates and edits shell script.
+
+5. chmod +x sync.sh
+Provides executable permission.
+
+6. ls -l
+Verifies script permissions.
+
+7. mkdir dirA dirB
+Creates directories for comparison.
+
+8. echo command
+Creates sample test files.
+
+9. ls dirA and ls dirB
+Displays directory contents.
+
+10. ./sync.sh
+Executes script to compare directories.
+

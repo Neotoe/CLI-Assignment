@@ -1,0 +1,22 @@
+cd ..
+mkdir Question5
+cd Question5
+
+nano sync.sh
+chmod +x sync.sh
+ls -l
+
+mkdir dirA dirB
+
+echo "Hello World" > dirA/file1.txt
+echo "Linux Script" > dirA/file2.txt
+
+echo "Hello World" > dirB/file1.txt
+echo "Different Content" > dirB/file3.txt
+
+ls dirA
+ls dirB
+
+./sync.sh
+
+mkdir screenshots
