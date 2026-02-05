@@ -1,0 +1,17 @@
+cd ..
+mkdir Question2
+cd Question2
+
+nano log_analyze.sh
+chmod +x log_analyze.sh
+ls -l
+
+nano sample.log
+
+./log_analyze.sh sample.log
+cat logsummary_*.txt
+
+./log_analyze.sh
+./log_analyze.sh wrong.log
+
+mkdir screenshots

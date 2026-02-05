@@ -1,0 +1,37 @@
+Question 2: Command Explanation
+
+1. cd ..
+Used to return to the main assignment directory.
+
+2. mkdir Question2
+Creates a directory for storing Question 2 files.
+
+3. cd Question2
+Moves into the Question2 working directory.
+
+4. nano log_analyze.sh
+Opens nano editor to create and edit the shell script.
+
+5. chmod +x log_analyze.sh
+Gives executable permission to the script.
+
+6. ls -l
+Displays file permissions to verify executable access.
+
+7. nano sample.log
+Creates and edits a sample log file for testing.
+
+8. ./log_analyze.sh sample.log
+Executes the script using the log file as input.
+
+9. cat logsummary_*.txt
+Displays generated report file content.
+
+10. ./log_analyze.sh
+Tests script behavior when no argument is provided.
+
+11. ./log_analyze.sh wrong.log
+Tests script behavior when invalid file is provided.
+
+12. mkdir screenshots
+Creates folder to store execution screenshots.
