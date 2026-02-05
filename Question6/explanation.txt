@@ -1,0 +1,26 @@
+Question 6: Command Explanation
+
+1. cd ..
+Returns to the main assignment directory.
+
+2. mkdir Question6
+Creates directory for Question 6 files.
+
+3. cd Question6
+Moves into the working directory.
+
+4. nano metrics.sh
+Opens nano editor to create and edit the shell script.
+
+5. chmod +x metrics.sh
+Provides executable permission to the script.
+
+6. ls -l
+Displays file permissions to verify executable access.
+
+7. nano input.txt
+Creates and edits the input text file for analysis.
+
+8. ./metrics.sh
+Executes the script to analyze text metrics.
+

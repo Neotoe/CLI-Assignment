@@ -1,0 +1,11 @@
+cd ..
+mkdir Question6
+cd Question6
+
+nano metrics.sh
+chmod +x metrics.sh
+ls -l
+
+nano input.txt
+
+./metrics.sh

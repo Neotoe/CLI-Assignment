@@ -1,0 +1,3 @@
+Linux scripting is fun.
+Shell scripting helps automate tasks.
+Linux commands and scripting are powerful tools.
