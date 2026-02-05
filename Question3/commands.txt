@@ -1,0 +1,11 @@
+cd ..
+mkdir Question3
+cd Question3
+
+nano validate_results.sh
+chmod +x validate_results.sh
+ls -l
+
+nano marks.txt
+
+./validate_results.sh

@@ -1,0 +1,26 @@
+Question 3: Command Explanation
+
+1. cd ..
+Used to return to the main assignment directory.
+
+2. mkdir Question3
+Creates a directory for storing Question 3 files.
+
+3. cd Question3
+Moves into the Question3 working directory.
+
+4. nano validate_results.sh
+Opens nano editor to create and edit the shell script.
+
+5. chmod +x validate_results.sh
+Gives executable permission to the script.
+
+6. ls -l
+Displays file permissions to verify executable access.
+
+7. nano marks.txt
+Creates and edits student marks data file.
+
+8. ./validate_results.sh
+Executes the script to validate student results.
+
