@@ -1,0 +1,32 @@
+Question 4: Command Explanation
+
+1. cd ..
+Used to return to the main assignment directory.
+
+2. mkdir Question4
+Creates directory for Question 4 files.
+
+3. cd Question4
+Moves into working directory.
+
+4. nano emailcleaner.sh
+Creates and edits shell script.
+
+5. chmod +x emailcleaner.sh
+Provides executable permission.
+
+6. ls -l
+Verifies permission changes.
+
+7. nano emails.txt
+Creates input email data file.
+
+8. ./emailcleaner.sh
+Executes script to process emails.
+
+9. cat valid.txt
+Displays valid email addresses.
+
+10. cat invalid.txt
+Displays invalid email addresses.
+

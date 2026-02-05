@@ -1,0 +1,15 @@
+cd ..
+mkdir Question4
+cd Question4
+
+nano emailcleaner.sh
+chmod +x emailcleaner.sh
+ls -l
+
+nano emails.txt
+
+./emailcleaner.sh
+
+cat valid.txt
+cat invalid.txt
+
