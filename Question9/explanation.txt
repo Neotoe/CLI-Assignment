@@ -1,0 +1,23 @@
+Question 9: Command Explanation
+
+1. cd ..
+Returns to main assignment directory.
+
+2. mkdir Question9
+Creates directory for Question 9 files.
+
+3. cd Question9
+Moves into working directory.
+
+4. nano zombie_prevention.c
+Creates and edits C program.
+
+5. gcc zombie_prevention.c -o zombie_prevention
+Compiles C program and creates executable file.
+
+6. ls -l
+Verifies executable file creation.
+
+7. ./zombie_prevention
+Runs program to demonstrate zombie process prevention.
+

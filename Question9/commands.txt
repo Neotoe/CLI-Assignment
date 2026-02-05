@@ -1,0 +1,12 @@
+cd ..
+mkdir Question9
+cd Question9
+
+nano zombie_prevention.c
+
+gcc zombie_prevention.c -o zombie_prevention
+
+ls -l
+
+./zombie_prevention
+
