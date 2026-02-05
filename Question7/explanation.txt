@@ -1,0 +1,35 @@
+Question 7: Command Explanation
+
+1. cd ..
+Returns to main assignment directory.
+
+2. mkdir Question7
+Creates directory for Question 7 files.
+
+3. cd Question7
+Moves into working directory.
+
+4. nano patterns.sh
+Creates and edits shell script.
+
+5. chmod +x patterns.sh
+Provides executable permission.
+
+6. ls -l
+Verifies script permission.
+
+7. nano input.txt
+Creates text file containing test words.
+
+8. ./patterns.sh
+Executes script to categorize words.
+
+9. cat vowels.txt
+Displays words containing only vowels.
+
+10. cat consonants.txt
+Displays words containing only consonants.
+
+11. cat mixed.txt
+Displays mixed words starting with consonant.
+
