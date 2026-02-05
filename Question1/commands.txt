@@ -1,0 +1,31 @@
+cd Question1
+
+nano analyze.sh
+
+chmod +x analyze.sh
+
+ls -l
+
+echo "Hello world" > test.txt
+
+echo "CLI assignment practice" >> test.txt
+
+cat test.txt
+
+./analyze.sh test.txt
+
+mkdir testdir
+
+touch testdir/a.txt
+
+touch testdir/b.txt
+
+touch testdir/image.jpg
+
+ls testdir
+
+./analyze.sh testdir
+
+./analyze.sh
+
+./analyze.sh wrongfolder

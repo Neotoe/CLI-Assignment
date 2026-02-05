@@ -1,0 +1,49 @@
+Question 1: Command Explanation
+
+1. cd Question1
+This command is used to change the working directory to the Question1 folder where the assignment files are stored.
+
+2. nano analyze.sh
+This command opens the nano text editor to create and edit the shell script named analyze.sh.
+
+3. chmod +x analyze.sh
+This command gives executable permission to the script file so that it can be executed as a program.
+
+4. ls -l
+This command lists files in long format and is used to verify whether executable permission has been successfully applied to the script.
+
+5. echo "Hello world" > test.txt
+This command creates a new file named test.txt and writes the given text into it. The '>' symbol is used to create or overwrite a file.
+
+6. echo "CLI assignment practice" >> test.txt
+This command appends text to the existing test.txt file. The '>>' symbol is used to add content without deleting previous data.
+
+7. cat test.txt
+This command displays the content of the file test.txt to verify that the file was created correctly.
+
+8. ./analyze.sh test.txt
+This command executes the script by providing a file as input argument. The script analyzes the file and displays the number of lines, words, and characters.
+
+9. mkdir testdir
+This command creates a new directory named testdir to test directory analysis functionality.
+
+10. touch testdir/a.txt
+This command creates an empty file named a.txt inside the testdir directory.
+
+11. touch testdir/b.txt
+This command creates another empty text file for testing multiple text files.
+
+12. touch testdir/image.jpg
+This command creates a non-text file inside the directory to test file filtering.
+
+13. ls testdir
+This command lists all files inside the test directory to verify that files were created successfully.
+
+14. ./analyze.sh testdir
+This command executes the script by providing a directory as input argument. The script counts total files and text files inside the directory.
+
+15. ./analyze.sh
+This command tests error handling when no argument is provided.
+
+16. ./analyze.sh wrongfolder
+This command tests error handling when an invalid path is provided.
